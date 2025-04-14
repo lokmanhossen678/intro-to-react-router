@@ -20,6 +20,10 @@ const router =createBrowserRouter([
   {
     path:'App',
     Component:App
+  },
+  {
+    path:'/App2',
+    element: <App></App>
   }
 ])
 
