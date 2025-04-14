@@ -11,11 +11,11 @@ import laptops from './components/laptops/laptops.jsx'
 const router =createBrowserRouter([
   {
     path:'/',
-    component:Root,
+    Component:Root,
     children:[
       {index:true, Component:Home},
       {path:'mobils', Component: Mobils},
-      {path:laptops, Component:laptops}
+      {path:"laptops", Component:laptops}
     ]
   },
   {
