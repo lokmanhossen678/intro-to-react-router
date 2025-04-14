@@ -8,6 +8,10 @@ const router =createBrowserRouter([
   {
     path:'/',
     element:<div>Wellcome to react router</div>
+  },
+  {
+    path:'About',
+    element:<div>About me heare</div>
   }
 ])
 
